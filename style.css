@@ -1,56 +1,72 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 * {
-    background-color: rgb(28, 27, 27);
-    color: #fff;
-}
-h1, ul, a {
-    list-style-type: none;
-    text-decoration: none;
-    color: #fff;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-}
-img { 
-    padding-top: 3%;
-    padding-bottom: 2%;
+  margin: 0;
+  padding: 0;
+  background-color:#2C2C2EFF;
 }
 
-h1 {
-    padding-top: 2%;
-    font-weight: bolder;
-    font-size: 32px;
+.menu {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 100px;
+}
+
+.title {
+    color: aliceblue;
     text-transform: uppercase;
+    text-align: center;
+    margin: 35px auto;
+    width: 400px;
+    border: 5px solid beige;
+    padding: 15px;
 }
 
-/* editing the beef pares part */
-img.bp_img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.subtitle {
+    margin: 30px;
+    color: aliceblue;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.food-details h2, h3{
-    font-family: 'Courier New', Courier, monospace;
-    list-style-position: inside;
-    font-size: 14px;
-}
-.food-details p, ul, ol {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-} 
-.food-details h2, h3 {
-    font-weight: bold;
-    font-style: italic;
-    font-size: 25px;
+.images {
+    margin: 40px;
     text-align: center;
 }
 
-.back_nav a{
-    float: right;
-    padding-top: 2%;
-    font-size: 12px;
+.images img {
+    width: 240px;
+    height: 240px;
+    border: 2px dashed rgb(223, 255, 83);
 }
 
-.back_nav a.back_main {
-    float: left;
+.pares_img, .adobo_img {
+    padding: 0 15px 0 0px;
+    
 }
+
+.content ul {
+    list-style: none;
+
+}
+
+.content li, a{
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.pares_li {
+    padding-left: 370px;
+}
+
+.adobo_li {
+    padding-left: 105px;
+    padding-right: 40px;
+}
+
+

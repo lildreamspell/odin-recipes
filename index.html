@@ -7,17 +7,29 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Odin Recipes</h1>
-        <ul>
-            <a href="./recipes/beef_pares.html" target="_self" rel="noopener noreferrer"><img src="./recipes/img/Beef-Pares-Stew.jpg" alt="Beef Pares" width="320" height="320"></a>
-            <!-- <a href="./recipes/beef_pares.html" target="_blank" rel="noopener noreferrer"><img src="/recipes/img/Beef-Pares-Stew.jpg" alt="Beef Pares" width="320" height="320"></a> -->
-            <li> <a href="./recipes/beef_pares.html" target="_blank" rel="noopener noreferrer">Beef Pares</a> </li>
-            <a href="./recipes/grilled_adobo.html" target="_self" rel="noopener noreferrer"> <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.charbroil.com%2Fmedia%2Fctm%2FC%2Fh%2FChicken_Adobo_02_wide_full.jpg.jpeg&f=1&nofb=1&ipt=c2cbe2631a5d9464036aae6058c64e10a0b5cb31c1612fee9f038ec1a3dd988a&ipo=images" alt="Grilled Chicken Adobo" width="320" height="320"></a>
-            <!-- <a href="./recipes/grilled_adobo.html" target="_blank" rel="noopener noreferrer"> <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.charbroil.com%2Fmedia%2Fctm%2FC%2Fh%2FChicken_Adobo_02_wide_full.jpg.jpeg&f=1&nofb=1&ipt=c2cbe2631a5d9464036aae6058c64e10a0b5cb31c1612fee9f038ec1a3dd988a&ipo=images" alt="Grilled Chicken Adobo" width="320" height="320"></a> -->
-            <li> <a href="./recipes/grilled_adobo.html" target="_self" rel="noopener noreferrer">Grilled Chicken Adobo</a> </li>
-            <a href="./recipes/pancit_bihoncanton.html" target="_blank" rel="noopener noreferrer"><img src="./recipes/img/pancit.png" alt="Pancit Bihon with Canton" width="320" height="320"></a>
-            <li> <a href="./recipes/pancit_bihoncanton.html" target="_blank" rel="noopener noreferrer">Pancit Bihon with Canton</a> </li>
-        </ul>
-        
+    <div class="menu">
+        <div class="title">
+            <h1>Today's Menu</h1>
+        </div>
+        <div class="subtitle">
+            <p>Click the images' picture / name below for more information</p>
+        </div>
+        <div class="images">
+           <a class="pares_img" href="./recipes/beef_pares.html" target="_self"><img src="./recipes/img/Beef-Pares-Stew.jpg" alt="Beef Pares"></a>
+           <a class="adobo_img" href="./recipes/grilled_adobo.html" target="_self"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.charbroil.com%2Fmedia%2Fctm%2FC%2Fh%2FChicken_Adobo_02_wide_full.jpg.jpeg&f=1&nofb=1&ipt=c2cbe2631a5d9464036aae6058c64e10a0b5cb31c1612fee9f038ec1a3dd988a&ipo=images" alt="Grilled Chicken Adobo"></a>
+           <a class="pancit_img" href="./recipes/pancit_bihoncanton.html" target="_blank" rel="noopener noreferrer"><img src="./recipes/img/pancit.png" alt="Pancit Bihon with Canton"></a>
+        </div>
+        <div class="content">
+            <ul>
+                <!-- Sample of opening a linkonto a new tab. <a href="./recipes/beef_
+                 pares.html" target="_blank" rel="noopener noreferrer">
+                 <img src="/recipes/img/Beef-Pares-Stew.jpg" 
+                 alt="Beef Pares" width="320" height="320"></a> -->
+                <li class="pares_li"> <a href="./recipes/beef_pares.html" target="_blank" rel="noopener noreferrer">Beef Pares</a> </li>
+                <li class="adobo_li"> <a href="./recipes/grilled_adobo.html" target="_self" rel="noopener noreferrer">Grilled Chicken Adobo</a> </li>
+                <li class="pancit_li"> <a href="./recipes/pancit_bihoncanton.html" target="_blank" rel="noopener noreferrer">Pancit Bihon with Canton</a> </li>
+            </ul>
+        </div>
+    </div>
     </body>
 </html>
