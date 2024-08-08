@@ -1,8 +1,3 @@
-i added the new learnings that I have learned upon finishing the 'Cascade' lesson under the CSS section of the TOP.
+Welcome to my The Odin Project 1st Project.
 
-This highlights the changes I made wherein:
-- Add styles to the plain HTML
-- Sample of class selectors, grouping selectors, and specifity(?)
-- Add colors, and font type, style, weight, etc
-- Fix: Text alignment
-- Overall, just made it visually bearable for now based on what I have learned so far.
+Based on the finished lessons, this website will (hopefully) improve to mirror the lessons I have learned and growth. Thank you for joining me on my uncertain journey. :)
